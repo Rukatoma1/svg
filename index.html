@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>SVG</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+
+      <div class="figure">
+        <h2 class="figure__title">Це квадрат</h2>
+        <svg class="figure__svg" width="200px" height="200px">
+          <rect class="figure__object square" width="190px" height="190px" />
+        </svg>
+      </div>
+
+      <div class="figure">
+        <h2 class="figure__title">Це прямокутник</h2>
+        <svg class="figure__svg" width="300px" height="200px">
+          <rect class="figure__object rectangle" width="290px" height="190px" />
+        </svg>
+      </div>
+
+      <div class="figure">
+        <h2 class="figure__title">Це коло</h2>
+        <svg class="figure__svg" width="220px" height="220px">
+          <circle class="figure__object circle" cx="110px" cy="110px" r="105px" />
+        </svg>
+      </div>
+
+      <div class="figure">
+        <h2 class="figure__title">Це еліпс</h2>
+        <svg class="figure__svg" width="300px" height="300px">
+          <ellipse class="figure__object ellipse" cx="150px" cy="150px" rx="40px" ry="100px" />
+        </svg>
+      </div>
+
+      <div class="figure">
+        <h2 class="figure__title">Це не еліпс</h2>
+        <svg class="figure__svg" width="300px" height="300px">
+          <polygon class="figure__object star"
+            points="190.8,172 223,270.9 138.9,209.8 54.8,270.9 86.9,172 2.8,110.9 106.7,110.9 138.9,12 171,110.9 275,110.9 " />
+        </svg>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
